@@ -1,9 +1,5 @@
 language: java
 
-java:
-- "1.7.0"
-- "1.8.0"
-
 script:
 - junit Test.Test_Variance.test_variance_1.java
 - junit Test.Test_Variance.test_variance_2.java
