@@ -1,5 +1,6 @@
 language: java
 
+
 script:
 - test Test.Test_Variance.test_variance_1.java
 - test Test.Test_Variance.test_variance_2.java
