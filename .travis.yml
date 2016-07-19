@@ -1,7 +1,13 @@
 language: java
 
+jdk:
+- oraclejdk7
+- openjdk7
+- openjdk6
+
+
 script:
-- JUnit Test.Test_Variance.test_variance_1.java
+- test Test.Test_Variance.test_variance_1.java
 - JUnit Test.Test_Variance.test_variance_2.java
 - JUnit Test.Test_Variance.test_variance_3.java
 - JUnit Test.Test_Correlation.test_correlation_1.java
