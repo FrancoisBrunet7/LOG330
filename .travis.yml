@@ -1,5 +1,7 @@
 language: java
 
+install: JUnit
+
 script:
 - junit Test.Test_Variance.test_variance_1.java
 - junit Test.Test_Variance.test_variance_2.java
